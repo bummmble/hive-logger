@@ -13,7 +13,7 @@ import {
 } from 'lodash';
 
 /* eslint-disable no-unused-vars */
-class HiveLogger {
+export default class HiveLogger {
   constructor(config) {
     this.config = Object.assign(
       {
