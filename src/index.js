@@ -26,7 +26,7 @@ export default class HiveLogger {
     autoBind(this);
   }
 
-  getMetaData(req) {
+  getMetadata(req) {
     const headers = req.headers || req.header || {};
     const method = req.method || '';
     const host = req.hostname || req.host || headers.host || '';
